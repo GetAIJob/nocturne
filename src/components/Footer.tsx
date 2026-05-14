@@ -20,6 +20,12 @@ export default function Footer() {
           <div>All rights, slowly, reserved.</div>
         </div>
       </div>
+      <p className="text-center mt-4 text-[0.75rem] opacity-[0.45]" style={{ color: 'inherit' }}>
+        Built by{' '}
+        <a href="https://risesitelab.com/" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: 'inherit' }}>
+          GrowthSite Lab
+        </a>
+      </p>
     </footer>
   )
 }
